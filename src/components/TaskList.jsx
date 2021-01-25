@@ -29,12 +29,12 @@ const TaskList = props => {
 	return (
 		<div className="todo-list">
 			
-			{list.length ? chk : "No tasks"}
+			{list.length ? chk : "No hay tareas"}
 			
 			{list.length ? (
 				<p>
 					<button className="button blue" onClick={onClickRemoveItem}>
-						Delete all done
+						Borrar tarea
 					</button>
 				</p>
 			) : null}
