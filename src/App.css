@@ -1,9 +1,14 @@
 .App {
-  text-align: center;
-  font-family: sans-serif;
+    text-align: center;
+    font-family: sans-serif;
 }
 
-body{
-  width: 100%;
-  margin: auto;
-}
+body{width: 100%;margin: auto;
+    background:#dedede;
+    position:relative;z-index:0;
+    background-image:url(../src/assets/img/bg.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100 auto;
+    background:cover;}
