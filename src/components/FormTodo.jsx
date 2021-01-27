@@ -30,7 +30,7 @@ const FormTodo = props => {
 						className="button pink"
 						disabled={description ? "" : "disabled"}
 					>
-						Agregar
+						Agregar 
 					</button>
 				</div>
 			</div>
