@@ -2,13 +2,13 @@ import React from "react";
 import Checkbox from "./Checkbox";
 
 const TaskList = props => {
-	
+
 	const { list, setList } = props;
 
 	const onChangeStatus = e => {
 		const { name, checked } = e.target;
 
-		
+
 		const updateList = list.map(item => ({
 			...item,
 			done: item.id === name ? checked : item.done
@@ -16,23 +16,24 @@ const TaskList = props => {
 		setList(updateList);
 	};
 
-	
+
 	const onClickRemoveItem = e => {
 		const updateList = list.filter(item => !item.done);
 		setList(updateList);
 	};
 
-	
 	const chk = list.map(item => (
 		<Checkbox key={item.id} data={item} onChange={onChangeStatus} />
 	));
 	return (
 		<div className="todo-list">
-			
-			{list.length ? chk : "No hay tareas"}
-			
+
+			<div className="nohay">
+				{list.length ? chk : "No hay tareas"}
+			</div>
+
 			{list.length ? (
-				<p>
+				<p className="btnDelete">
 					<button className="button blue" onClick={onClickRemoveItem}>
 						Borrar tarea
 					</button>
