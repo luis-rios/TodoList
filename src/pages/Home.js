@@ -1,8 +1,9 @@
 import React from 'react';
 import Menu from '../components/Menu';
 import Container from '../components/Container';
+import Card from '../components/Card';
 import '../App.css';
-import '../styles/Menu.css'
+
 
 
 export default function Home(){
@@ -12,6 +13,8 @@ export default function Home(){
         <div>
             <Menu/>
             <Container/>
+
+            <Card/>
        
 
      

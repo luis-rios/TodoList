@@ -1,25 +1,66 @@
 
-
-
-
-    App {
-        text-align: center;
-        font-family: sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+  }
+  /*Estilos menu*/
+  body{
+    background-image: url('../src/assets/img/04.jpg');
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .menu{
+    width: 1000px;
+    margin-top: 300px;
+    height: 100px;
+    padding: 10px;
+    
+  
+  }
+  nav a{
+    text-decoration:none;
+      color:inherit;
+      font-size:14px;
+  }
+  nav li{
+    display:flex;
+  
+   
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
     }
+    nav li:hover{
+      background-color:rgb(44, 203, 224);
+      color:rgb(233, 233, 233);
+      }
+  
+      nav ul li{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        padding-top: 50px;
+      
+      }
+  
+    /*Estilos  cuadro de card*/
+  .card{
+    width: 500px;
+    height: 500px;
+    float: right;
+    border-radius:5em ;
+    background-color: brown;
+  }
     
-    body{width: 100%;margin: auto;
-        background:#dedede;
-        position:relative;z-index:0;
-        float: left;
-        background-image:url(../src/assets/img/04.jpg);
-        background-attachment: fixed;
-        background-repeat:no-repeat;
-        background-position:center;
-        background-size:100 auto;
-        background:cover;}
-    body::-webkit-scrollbar{width:5px;height:40px;background:#22232a}
-    body::-webkit-scrollbar-thumb{background:#1abb9c;border-radius:2px}
-    
+  
+  
     
     
     
