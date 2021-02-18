@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../App.css';
 
 import TaskList from "./TaskList";
 import FormTodo from "./FormTodo";
@@ -11,7 +12,7 @@ const Container = () => {
 		setList([...list, addItem]);
 	};
 	return (
-		<div>
+		<div className="contenedor_todo">
 
 			<FormTodo handleAddItem={handleAddItem} />
 
