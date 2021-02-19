@@ -1,11 +1,15 @@
 import React from 'react';
 import Menu from '../components/Menu';
+
 import Container from '../components/Container';
 import Card from '../components/Card';
 import '../App.css';
 import '../styles/Menu.css';
 import Image from '../assets/img/bg.jpg';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Calendario from '../components/Calenario';
+
+
 
 export default function Home(){
 
@@ -17,7 +21,6 @@ export default function Home(){
             </section>
             <Menu/>
             <Container/>
-
             <Card/>
 
             <Dropdown>

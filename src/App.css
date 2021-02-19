@@ -7,7 +7,7 @@
   }
   /*Estilos menu*/
   body{
-    background-image: url('../src/assets/img/04.jpg');
+    background-image: url('../src/assets/img/07.jpg');
     color: #ffff;
     text-align: center;
     text-decoration: none;
@@ -52,15 +52,77 @@
   
     /*Estilos  cuadro de card*/
   .card{
+    
     width: 500px;
     height: 500px;
     float: right;
-    border-radius:5em ;
-    background-color: brown;
+    border-radius:.5em ;
+   
   }
-    
+
+
+  .card .imagen{  
+      width:500px;
+      height: 45%;
+      padding-left: 100px;
+      border-radius: .5em;
+      margin-top: 55%;
+      margin-bottom:200px ;
+
+  }
   
   
-    
+ /*estilos de home*/ 
+  
+  
+  .styles{
+      display: flex;   
+  }
+
+
+/*Estilos Calendario*/
+
+
+.card .nombre{
+  display: flex;
+  padding: 10px;
+  float:right
+  
+}
+
+/*Estilos input*/
+
+
+.file-input{
+
+  display: flex;
+  
+  height: 500px;
+  width: 1000px;
+
+}
+
+input{
+  width:450px;
+  margin-top:25%;
+  border-radius: .5em;
+  margin-left: 400px;
+  margin-right: 0px;
+  height:30px;
+    background-color:#fff
+}
+
+/*boton agregar*/
+
+
+.btn-add{
+  margin: 200px;
+  height: 100px;
+  border-radius: .5em;
+  background-color: blue;
+  color: #000;
+
+}
+
     
     
