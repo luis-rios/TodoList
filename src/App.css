@@ -52,12 +52,14 @@
   
     /*Estilos  cuadro de card*/
   .card{
-    
-    width: 500px;
+    margin: 500px;
+    width: 360px;
     height: 500px;
-    float: right;
+    overflow: auto;
+    margin-top: -750px;
     border-radius:.5em ;
-   
+    margin-bottom: 200px;
+    
   }
 
 
@@ -66,8 +68,9 @@
       height: 45%;
       padding-left: 100px;
       border-radius: .5em;
-      margin-top: 55%;
-      margin-bottom:200px ;
+      margin-top: 20%;
+      margin-bottom:200px;
+      
 
   }
   
@@ -86,7 +89,9 @@
 .card .nombre{
   display: flex;
   padding: 10px;
-  float:right
+  width: 500px;
+  
+
   
 }
 
@@ -123,6 +128,19 @@ input{
   color: #000;
 
 }
+.imagen{
+  background-position: center;
+  background-size: cover;
+  background-position-x: -80px;
+  
 
-    
-    
+} 
+
+.nombre{
+display: flex;
+justify-content: left;
+margin-top: -20px;
+width: 300px;
+height: 155px;
+
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import Calendario from './Calenario'
-
 import '../App.css'
-import Dibujo from '../assets/img/06.jpg'
+
+import Foto from '../assets/img/08.jpg'
 
 function Card(){
     return(
-        <div className="card">
+        <div className="card" >
 
 
 
@@ -15,7 +15,7 @@ function Card(){
                     </div> 
                     
 
-                <div  className="imagen"  style={{backgroundImage:`url(${Dibujo})`}}>
+                <div  className="imagen"  style={{backgroundImage:`url(${Foto})`}} >
                    
 
                 </div>
