@@ -5,50 +5,47 @@
   
     
   }
-  /*Estilos menu*/
   body{
     background-image: url('../src/assets/img/07.jpg');
     color: #ffff;
     text-align: center;
     text-decoration: none;
   }
+  /*Estilos menu*/
   
-  .menu{
-    width: 1000px;
-    margin-top: 300px;
-    height: 100px;
-    padding: 10px;
+  .menu{     
+    display: flex;
+    height: 255px;
+    width: 250px;      
+    margin-top: 30px;
+    padding-right: 10px;  
+    margin: 10px;
+    background: black; 
     
-  
+
   }
-  nav a{
-    text-decoration:none;
-      color:inherit;
-      font-size:14px;
+  button{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
   }
-  nav li{
-    display:flex;
-  
-   
-    width:10%;
-    padding:5px 10px;
-    background-color:#000;
-    border:1px solid #000;
-    text-align:center;
-    color:#fff;
-    }
-    nav li:hover{
-      background-color:rgb(44, 203, 224);
-      color:rgb(233, 233, 233);
-      }
-  
-      nav ul li{
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 30px;
-        padding-top: 50px;
-      
-      }
+  .menu button:hover{
+    background: rgb(38, 38, 224);
+    color: white;
+  }
+  .menu ul {
+    display: flex;    
+    flex-direction: column;
+    padding-left: 5px;    
+
+  }
+  .menu ul li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+  }
   
     /*Estilos  cuadro de card*/
   .card{
