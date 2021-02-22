@@ -11,48 +11,14 @@
     text-align: center;
     text-decoration: none;
   }
-  /*Estilos menu*/
   
-  .menu{     
-    display: flex;
-    height: 255px;
-    width: 250px;      
-    margin-top: 30px;
-    padding-right: 10px;  
-    margin: 10px;
-    background: black; 
-    
-
-  }
-  button{
-    display: flex;
-    align-items: center;
-    width: 250px;
-    height: 50px;
-    padding-left: 10px;
-  }
-  .menu button:hover{
-    background: rgb(38, 38, 224);
-    color: white;
-  }
-  .menu ul {
-    display: flex;    
-    flex-direction: column;
-    padding-left: 5px;    
-
-  }
-  .menu ul li{
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-  }
   
     /*Estilos  cuadro de card*/
   .card{
     
     width: 500px;
     height: 500px;
-    float: right;
+    /*float: right;*/
     border-radius:.5em ;
    
   }
@@ -83,7 +49,7 @@
 .card .nombre{
   display: flex;
   padding: 10px;
-  float:right
+  /*float:right*/
   
 }
 
@@ -106,20 +72,28 @@ input{
   margin-left: 400px;
   margin-right: 0px;
   height:30px;
-    background-color:#fff
+  background-color:#fff
 }
 
 /*boton agregar*/
 
 
-.btn-add{
-  margin: 200px;
-  height: 100px;
-  border-radius: .5em;
-  background-color: blue;
-  color: #000;
-
+/*Estilos Componente-FormTodo*/
+.todo-list{
+  display: flex;
+  justify-content: flex-end;
+  width: 600px;
+  height: 200px;
+  background-color: red;  
+}      
+.text{
+  text-align: center;
+}  
+.btn-add{  
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: black;
 }
 
-    
-    
+ 

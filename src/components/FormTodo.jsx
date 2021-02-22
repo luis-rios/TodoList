@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import '../App.css';
 const FormTodo = props => {
 	const { handleAddItem } = props;
 	const [description, setDescription] = useState("");
@@ -23,6 +23,7 @@ const FormTodo = props => {
 						type="text"
 						className="text"
 						value={description}
+						placeholder="Ingresar Tarea"
 						onChange={e => setDescription(e.target.value)}
 					/>
 
